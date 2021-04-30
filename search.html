@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+
+<div id="header">
+<h1>搜索引擎</h1>
+</div>
+
+<div id="nav">
+<a href="https://www.baidu.com"  target='blank'>百度<br></a>
+<a href="https://www.sogou.com"  target='blank'>搜狗<br></a>
+<a href="https://cn.bing.com"  target='blank'>必应<br></a>
+</div>
+
+<div id="section">
+
+
+<p>
+	<form action="https://www.baidu.com/s" method="get" target='blank'>
+			<input type="text" name="wd">
+			<input type="submit" value="百度搜索">
+			<!--点击“提交”按钮后，注意浏览器地址栏的变化-->
+	</form>
+</p>
+
+<p>
+	<form action="https://www.sogou.com/web" method="get" target='blank'>
+			<input type="text" name="query">
+			<input type="submit" value="搜狗搜索">
+			<!--点击“提交”按钮后，注意浏览器地址栏的变化-->
+	</form>
+</p>
+
+<p>
+	<form action="https://cn.bing.com/search" method="get" target='blank'>
+			<input type="text" name="q">
+			<input type="submit" value="必应搜索">
+			<!--点击“提交”按钮后，注意浏览器地址栏的变化-->
+	</form>
+</p>
+
+</div>
+
+<div id="footer">
+计算机科学与编程入门
+</div>
+
+</body>
+</html>
