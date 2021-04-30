@@ -15,7 +15,7 @@
 ## 3.作业3
 作业3描述：设计了展示C9各高校历史简介的网页，使用CSS进行美化。网页包括了C9各高校的校名、校徽以及历史简介，可以通过点击校徽跳转至学校官方网站。
 
-[作业3链接](https://liyk127.github.io/C9history.html)
+[作业3链接](http://liyk127.github.io/C9history.html)
 
 
 
